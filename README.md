@@ -1,6 +1,16 @@
 # coursera_programming_pku
 Programming Assignments for Coursera's programming series courses provided by Peking University
-### How to Compile and Run C/C++ code on CentOS
+### How to Compile and Run C++ code on CentOS
+First, you need to install gcc-c++ (g++)
 ```
-gcc file_name.c -o executable_file_name
+sudo yum install gcc gcc-c++
+```
+After that, you may check the g++ version by
+```
+g++ --version
+```
+To compile the file, run
+```
+g++ file_name.c -o executable_file_name
 ./executable_file_name
+```
